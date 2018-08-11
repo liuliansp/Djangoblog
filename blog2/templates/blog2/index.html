@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>{{ hello.student_name }}</label>
+<h1>hello,blog2</h1>
+<span>{{ hello.student_id }}</span>
+<h2 id="lan"></h2>
+<input id="inp">
+<button id="oo" onclick="doo()">提交</button>
+</body>
+<script>
+    function doo() {
+        var kk=document.getElementById("inp").value;
+        var ll=document.getElementById("lan");
+        ll.innerText=kk;
+
+        {#alert(kk)#}
+    }
+</script>
+</html>
